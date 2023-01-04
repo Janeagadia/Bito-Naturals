@@ -1,0 +1,29 @@
+{
+  "name": "bito-homepage",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T-laye/Bito-Naturals---Homepage.git"
+  },
+  "author": "Jane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T-laye/Bito-Naturals---Homepage/issues"
+  },
+  "homepage": "https://github.com/T-laye/Bito-Naturals---Homepage#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "autoprefixer-core": "^6.0.1",
+    "csswring": "^7.0.0",
+    "gulp-postcss": "^9.0.1",
+    "parcel": "^2.8.2"
+  }
+}
